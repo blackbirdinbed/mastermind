@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app">
+    <Board />
+    <HintsBoard />
+    <CheckButton />
+    <Picker />
+    <RestartDialog />
+  </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+<script setup>
+import Board from "./components/Board";
+import HintsBoard from "./components/HintsBoard";
+import CheckButton from "./components/CheckButton";
+import Picker from "./components/Picker.vue";
+import RestartDialog from "./components/RestartDialog.vue";
 </script>
 
-<style>
+<style scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
 }
 </style>
