@@ -15,5 +15,10 @@ npm run serve
 npm run build
 ```
 
+### Play the game online
+```
+https://goofy-bose-288754.netlify.app
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
