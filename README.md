@@ -1,4 +1,4 @@
-# alkimii-mastermind
+# Mastermind Game
 
 ## Project setup
 ```
